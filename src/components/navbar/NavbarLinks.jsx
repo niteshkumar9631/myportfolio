@@ -29,12 +29,14 @@ const NavbarLinks = () => {
 
       <li className="group">
         <a
-          href="/public/resume/Nitesh_Kumar_Gond_Resume.pdf"
-          download="resume.pdf"
-          className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
-        >
+          href="/resume/Nitesh_Kumar_Gond_Resume.pdf"
+           download="Nitesh_Kumar_Resume.pdf"
+           className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
+            >
           Resume
-        </a>
+      </a>
+
+        
         <div className="mx-auto bg-cyan w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
       </li>
     </ul>
