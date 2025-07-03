@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 const links = [
   { link: "About Me", section: "about" },
   { link: "Skills", section: "skills" },
-  { link: "Service", section: "services" }, // ✅ fixed: lowercase "services"
+  { link: "Service", section: "services" },
   { link: "Projects", section: "projects" },
   { link: "Contact", section: "contact" },
 ];
@@ -30,13 +30,13 @@ const NavbarLinks = () => {
       <li className="group">
         <a
           href="/resume/Nitesh_Kumar_Gond_Resume.pdf"
-           download="Nitesh_Kumar_Resume.pdf"
-           className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
-            >
+          download="Nitesh_Kumar_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
+        >
           Resume
-      </a>
-
-        
+        </a>
         <div className="mx-auto bg-cyan w-0 group-hover:w-full h-[1px] transition-all duration-500"></div>
       </li>
     </ul>

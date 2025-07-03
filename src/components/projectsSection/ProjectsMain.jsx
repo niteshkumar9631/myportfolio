@@ -5,12 +5,12 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "E-commerce Website",
+    name: "E-commerce",
     year: "Mar2025",
     used: "MERN Stack, Stripe API & Razorpay Payment Gateway",
     align: "right",
     image: "/images/E-commerce.png",
-    link: "https://github.com/niteshkumar9631/E-commerceWebsite-/tree/my-new-branch",
+    link: "https://github.com/niteshkumar9631/E-commerce.git",
   },
 
    {
