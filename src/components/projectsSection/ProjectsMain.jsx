@@ -11,6 +11,7 @@ const projects = [
     align: "right",
     image: "/images/E-commerce.png",
     link: "https://github.com/niteshkumar9631/E-commerce.git",
+    live: "https://e-commerce-frontend-ten-rust.vercel.app/"
   },
 
    {
@@ -62,6 +63,7 @@ const ProjectsMain = () => {
             align={project.align}
             image={project.image}
             link={project.link}
+            live={project.live}
           />
         ))}
       </div>

@@ -2,7 +2,7 @@ import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const SingleProject = ({ name, year, align, image, link, used }) => {
+const SingleProject = ({ name, year, align, image, link, used, live }) => {
   return (
     <motion.div
       variants={fadeIn("top", 0)}
@@ -14,14 +14,16 @@ const SingleProject = ({ name, year, align, image, link, used }) => {
       } justify-end sm:flex-col`}
     >
       <div>
+        {/* Project Name */}
         <h2
           className={`md:text-3xl sm:text-2xl text-orange font-special sm:text-center ${
-           align === "left" ? "md:text-right" : "md:text-left"
-           }`}
+            align === "left" ? "md:text-right" : "md:text-left"
+          }`}
         >
           {name}
         </h2>
 
+        {/* Project Year */}
         <h2
           className={`text-xl font-thin text-white font-special sm:text-center ${
             align === "left" ? "md:text-right" : "md:text-left"
@@ -30,37 +32,47 @@ const SingleProject = ({ name, year, align, image, link, used }) => {
           {year}
         </h2>
 
-        {/* ✅ Used Technologies */}
+        {/* Technologies Used */}
         <h2
-            className={`text-xl font-thin text-white font-special sm:text-center ${
-              align ==="left" ? "md:text-right" : "md:text-left"
-            }`}
-          >
-            {used}
-            </h2>
-          
-        
+          className={`text-xl font-thin text-white font-special sm:text-center ${
+            align === "left" ? "md:text-right" : "md:text-left"
+          }`}
+        >
+          {used}
+        </h2>
 
-        {/* ✅ GitHub Link Block */}
+        {/* Links Section */}
         <div
-          className={`flex mt-3 ${
+          className={`flex gap-6 mt-3 ${
             align === "left" ? "justify-end" : "justify-start"
           }`}
         >
+          {/* GitHub Link */}
           <a
             href={link}
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer"
           >
-            View <BsFillArrowUpRightCircleFill />
+            GitHub <BsFillArrowUpRightCircleFill />
           </a>
+
+          {/* Live Link (only if provided) */}
+          {live && (
+            <a
+              href={live}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg flex gap-2 items-center text-green-400 hover:text-orange transition-all duration-500 cursor-pointer"
+            >
+              Live <BsFillArrowUpRightCircleFill />
+            </a>
+          )}
         </div>
       </div>
 
-      {/* ✅ Image with Safe Overlay */}
+      {/* Project Image */}
       <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 relative border border-white">
-        {/* Overlay Div (non-interactive) */}
         <div className="w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden pointer-events-none"></div>
 
         <img
