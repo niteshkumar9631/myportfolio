@@ -21,6 +21,7 @@ const projects = [
     align: "left",
     image: "/images/BlogApp.png",
     link: "https://github.com/niteshkumar9631/BlogApp",
+    live: "https://blog-app-frontend-murex-three.vercel.app/"
   },
 
   {
@@ -30,6 +31,7 @@ const projects = [
     align: "right",
     image: "/images/weatherapp.PNG",
     link: "https://github.com/niteshkumar9631/WeatherApp/tree/my-new-branch",
+    live: "https://weather-app-niteshkumar.vercel.app/"
   },
   
    {
@@ -39,6 +41,8 @@ const projects = [
     align: "left",
     image: "/images/todoapp.png",
     link: "https://github.com/niteshkumar9631/ToDoApp/tree/my-new-branch",
+    live: "https://to-do-app-opal-nu.vercel.app/"
+
   }
 ];
 
