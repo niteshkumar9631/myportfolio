@@ -1,6 +1,4 @@
-# 🌦️ Weather App
 
-A simple and responsive weather app built using React and Vite.
 
 ## 🔗 Live Demo
 
