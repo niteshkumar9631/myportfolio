@@ -39,12 +39,13 @@ npm install
 npm run dev
 ```
 
-🙋‍♂️ Author
-Nitesh Kumar
-GitHub: @niteshkumar9631
-📄 License
+### 🙋‍♂️ Author
+- Nitesh Kumar
+- GitHub: @niteshkumar9631
 
-This project is licensed under the MIT License.
+### 📄 License
+
+- This project is licensed under the MIT License.
 
 
 
