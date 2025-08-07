@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio built using **React.js**. This website showcases my skills, projects, and experience as a web developer.
 
-🌐 **Live Site:** [niteshkumar-portfolio.vercel.app](https://niteshkumar-portfolio.vercel.app)
+🌐 **Live Site:** [MyPortfolio](https://niteshkumar-portfolio.vercel.app)
 
 ---
 
@@ -39,9 +39,14 @@ npm install
 npm run dev
 ```
 
-### 🙋‍♂️ Author
-- Nitesh Kumar
-- GitHub: @niteshkumar9631
+---
+
+- ### 🙋‍♂️ Author
+**Nitesh Kumar**  
+- 📧 [niteshkumar9631](mailto:niteshkumar9631@gmail.com)  
+- 🌐 [GitHub Profile](https://github.com/niteshkumar9631)
+
+---
 
 ### 📄 License
 
