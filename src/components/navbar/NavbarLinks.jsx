@@ -29,8 +29,8 @@ const NavbarLinks = () => {
 
       <li className="group">
         <a
-          href="/resume/Nitesh_Kumar_Gond_Resume.pdf"
-          download="Nitesh_Kumar_Resume.pdf"
+          href="/resume/Nitesh-Kumar-Gond-Resume.pdf"
+          download="Nitesh-Kumar-Gond-Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
