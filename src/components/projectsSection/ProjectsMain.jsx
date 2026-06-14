@@ -6,7 +6,7 @@ import { fadeIn } from "../../framerMotion/variants";
 const projects = [
   {
     name: "Job Portal",
-    year: "may 2026",
+    year: "May 2026",
     used: "MERN Stack · JWT Auth · Role-Based Access · Cloudinary · Vercel",
     align: "right",
     image: "/images/job-portal.png",
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     name: "QuickChat",
-    year: "jan 2026",
+    year: "Jan 2026",
     used: "MERN Stack · Socket.io · JWT Auth · Real-Time Messaging · Vercel",
     align: "left",
     image: "/images/QuickChat.png",
@@ -25,7 +25,7 @@ const projects = [
 
   {
   name: "Career Mentor Pro",
-  year: "Step 2025",
+  year: "Mar 2026",
   used: "MERN Stack · OpenRouter AI · Google OAuth · Cloudinary · Vercel · Render",
   align: "right",
   image: "/images/aicareer.png",
@@ -35,7 +35,7 @@ const projects = [
 
   {
     name: "E-Commerce Platform",
-    year: "may 2025",
+    year: "Oct 2025",
     used: "MERN Stack · Stripe · Razorpay · Cart & Orders · Vercel",
     align: "left",
     image: "/images/E-commerce.png",
@@ -44,7 +44,7 @@ const projects = [
   },
   {
     name: "StudyNation",
-    year: "feb 2025",
+    year: "May 2025",
     used: "MERN Stack · JWT Auth · Course Management · REST API · Vercel",
     align: "right",
     image: "/images/StudyNation.png",

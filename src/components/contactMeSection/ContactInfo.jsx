@@ -17,7 +17,7 @@ const ContactInfo = () => {
         href="tel:+919631742655"
       />
       <SingleInfo
-        text="Bihar, India"
+        text="Delhi, India"
         Icon={IoLocationOutline}
       />
     </div>
